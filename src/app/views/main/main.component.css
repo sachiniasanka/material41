@@ -1,0 +1,36 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+#navStyle{
+  background-color: blue;
+}
+#sideNav{
+  height: 600px;
+  width: 250px;
+}
+#navStyleFooter{
+  background-color: blue;
+}
+.example-sidenav-container {
+  /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
+     causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
+  flex: 1;
+}
+#labelStyle{
+  background-color: lightgray;
+  height: 40px;
+  width: 100px;
+}
+.listItem{
+  text-align: center;
+}
+.example-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #eee;
+}
+
